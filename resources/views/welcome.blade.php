@@ -66,6 +66,14 @@
         </style>
     </head>
     <body>
+
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+            <a class="nav-link" href="{{url('/')}}">Sistema de Solicitud de Permisos</a>
+            </li>
+        </ul>
+        </nav>
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
@@ -83,11 +91,11 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Bienvenidos al Sistema de Permisos
+                    Bienvenidos al Sistema de Solicitud de Permisos
                 </div>
                 <div>
-                <a href="{{url('permisos/agregar')}}">
-                    <button class="btn btn-primary">Solicitar Permiso</button>
+                <a href="{{url('solicitarpermiso')}}">
+                    <button class="btn btn-secondary">Solicitar Permiso</button>
                 </a>              
                 </div>
             </div>

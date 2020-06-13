@@ -5,11 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet" type="text/css"/>
     <link href="{{ asset('static/css/app.css') }}" rel="stylesheet" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+
     <title>Formulario de Permiso</title>
 </head>
 <body>
-    <div class="container col-sm-6 border formPermiso">
-    <h1>Formulario de Permiso</h1>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <ul class="navbar-nav">
+        <li class="nav-item active">
+        <a class="nav-link" href="{{url('/')}}">Sistema de Solicitud de Permisos</a>
+        </li>
+    </nav>
+
+    <div class="container col-sm-7 tituloForm">
+        <h1>Formulario de Permiso</h1>
+    </div>
+
+    <div class="container col-sm-6 border formPermiso"> 
         <br>
         @if($errors->any())
             <div class="alert alert-danger">
@@ -28,7 +40,7 @@
         </div>
         @endif
 
-        <form action="{{url('permisos/agregar')}}" method="post">
+        <form action="{{url('solicitarpermiso')}}" method="post">
         @csrf
             <div class="form-group">
 
@@ -57,7 +69,7 @@
                 <input type="text" class="form-control" name="espacio" value="{{old('espacio')}}"placeholder="¿En que espacio especifico trabaja?">
 
                 <br>
-                <button type="submit" class="btn btn-primary">Guardar</button>
+                <button type="submit" class="btn btn-secondary">Guardar</button>
             </div>
         </form>   
     </div>    
