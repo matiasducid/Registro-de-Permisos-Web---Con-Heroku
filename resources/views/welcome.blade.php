@@ -4,7 +4,9 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Sistema de Permisos</title>
+
+        <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet" type="text/css"/>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -45,7 +47,7 @@
             }
 
             .title {
-                font-size: 84px;
+                font-size: 34px;
             }
 
             .links > a {
@@ -81,18 +83,12 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Bienvenidos al Sistema de Permisos
                 </div>
-
-                <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://vapor.laravel.com">Vapor</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                <div>
+                <a href="{{url('permisos/agregar')}}">
+                    <button class="btn btn-primary">Solicitar Permiso</button>
+                </a>              
                 </div>
             </div>
         </div>
