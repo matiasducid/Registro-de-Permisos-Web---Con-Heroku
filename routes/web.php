@@ -19,3 +19,5 @@ Route::get('/', function () {
 
 Route::get('solicitarpermiso', 'PermisoController@create');
 Route::post('solicitarpermiso', 'PermisoController@store');
+
+Route::get('procesarpermiso/{id}', 'ProcesarPermisoController@create');

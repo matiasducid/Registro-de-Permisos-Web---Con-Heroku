@@ -3,7 +3,11 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 use App\Permiso; 
+use App\Mail\PermisoSolicitado; 
+
+use Illuminate\Support\Facades\DB;
 
 class PermisoController extends Controller
 {
@@ -35,7 +39,7 @@ class PermisoController extends Controller
      */
     public function store(Request $request)
     {
-        $this->validate($request, [
+        $msj = $this->validate($request, [
             'dni' => 'required|max:8',
             'apellido' => 'required',
             'nombre' => 'required',
@@ -68,7 +72,19 @@ class PermisoController extends Controller
             'espacio' => $request->get('espacio') ,
         ]);
 
+        //TODO REcuperar el persimo cuyo dni sea el de request. y pasarselo a permiso solicitado
+        $id_permiso = DB::table('permisos')
+            ->select('id')
+            ->where('dni', $request->get('dni'))
+            ->take(1)
+            ->get();
+        
+        $id = $id_permiso[0]->id;
+
+        Mail::to('abigail_lucii@hotmail.com')->queue(new PermisoSolicitado($msj, $id));
+
         return back()->with('mensaje', 'Permiso Solicitado');
+        //return "hola $id";
     }
 
     /**
