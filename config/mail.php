@@ -35,7 +35,7 @@ return [
 
     'mailers' => [
         'smtp' => [
-            'driver' => env('MAIL_DRIVER', 'smtp')
+            'driver' => env('MAIL_DRIVER', 'smtp') ,
             'transport' => 'smtp',
             'host' => env('MAIL_HOST', 'smtp.gmail.com'),
             'port' => env('MAIL_PORT', 587),
@@ -85,8 +85,8 @@ return [
     */
 
     'from' => [
-        'address' => env('MAIL_FROM_ADDRESS', 'admin@admin.com'),
-        'name' => env('MAIL_FROM_NAME', 'Admin'),
+        'address' => env('MAIL_FROM_ADDRESS', 'registro.de.permisos@gmail.com'),
+        'name' => env('MAIL_FROM_NAME', 'Laravel'),
     ],
 
     /*
