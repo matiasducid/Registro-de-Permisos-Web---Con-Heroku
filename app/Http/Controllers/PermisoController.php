@@ -72,7 +72,7 @@ class PermisoController extends Controller
             'superior' => $request->get('superior') ,
             'dependencia' => $request->get('dependencia') ,
             'espacio' => $request->get('espacio') ,
-            'aprobado' => False ,
+            'aprobado' => $request->get('aprobado') ,
 
         ]);
 
