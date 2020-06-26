@@ -60,7 +60,7 @@ class PermisoController extends Controller
             'superior.required' => 'El superior es requerido',
             'dependencia.required' => 'El superior es requerido',
             'espacio.required' => 'El espacio es requerido',
-            'aprobado' => ' Es necesario indicar si el permiso esta aprobado o no'
+            'aprobado.required' => ' Es necesario indicar si el permiso esta aprobado o no'
         ]);
 
         Permiso::create([
