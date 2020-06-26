@@ -70,11 +70,8 @@ class PermisoController extends Controller
             'superior' => $request->get('superior') ,
             'dependencia' => $request->get('dependencia') ,
             'espacio' => $request->get('espacio') ,
-<<<<<<< HEAD
             'aprobado' => False ,
-=======
-            'aprobado' => FALSE ,
->>>>>>> d26189118690e19805efa6af8643ec9087ee42d6
+
         ]);
 
         //TODO REcuperar el persimo cuyo dni sea el de request. y pasarselo a permiso solicitado
