@@ -48,6 +48,7 @@ class PermisoController extends Controller
             'superior' => 'required',
             'dependencia' => 'required',
             'espacio' => 'required',
+            'aprobado' => 'required' ,
         ],
         [
             'dni.max' => 'Maximo de caracteres para el nombre son 8',
@@ -59,6 +60,7 @@ class PermisoController extends Controller
             'superior.required' => 'El superior es requerido',
             'dependencia.required' => 'El superior es requerido',
             'espacio.required' => 'El espacio es requerido',
+            'aprobado' => ' Es necesario indicar si el permiso esta aprobado o no'
         ]);
 
         Permiso::create([
