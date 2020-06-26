@@ -68,9 +68,6 @@
                 <label for="espacio">Espacio Especifico:</label>
                 <input type="text" class="form-control" name="espacio" value="{{old('espacio')}}"placeholder="¿En que espacio especifico trabaja?">
 
-                <input type="text" class="form-control" name="aprobado" value="False" placeholder="False" style="display:none" >
- 
-
                 <br>
                 <button type="submit" class="btn btn-secondary">Guardar</button>
             </div>
