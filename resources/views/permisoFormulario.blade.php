@@ -68,6 +68,8 @@
                 <label for="espacio">Espacio Especifico:</label>
                 <input type="text" class="form-control" name="espacio" value="{{old('espacio')}}"placeholder="¿En que espacio especifico trabaja?">
 
+                <input type="checkbox" class="form-control" id="id_aprobado" name="aprobado" value= False>
+
                 <br>
                 <button type="submit" class="btn btn-secondary">Guardar</button>
             </div>
