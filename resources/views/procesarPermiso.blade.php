@@ -73,7 +73,7 @@
                     <br>
                     <div class="text-center">
                         <a href="http://registro-de-permisos.herokuapp.com/aceptarPermiso/{{$permiso[0]->id}}" class="btn btn-secondary">Aceptar</a>
-                        <a href="{{url('rechazarPermiso')}}" class="btn btn-secondary">Rechazar</a>
+                        <a href="http://registro-de-permisos.herokuapp.com/rechazarPermiso/{{$permiso[0]->id}}" class="btn btn-secondary">Rechazar</a>
                     </div>
 
                 </div>
