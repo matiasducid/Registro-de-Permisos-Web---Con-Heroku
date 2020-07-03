@@ -6,6 +6,7 @@
     <title>Permiso Rechazado</title>
 </head>
 <body>
-    SE RECHAZO SU PERMISO id : {{$permiso[0]->id}}
+    <p> Su permiso fue rechazado </p>
+    <p> Id del permiso {{$id}} </p>
 </body>
 </html>

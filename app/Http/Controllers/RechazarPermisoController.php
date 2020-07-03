@@ -3,6 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Mail;
+use App\Mail\PermisoRechazadoEmail; 
 
 class RechazarPermisoController extends Controller
 {
@@ -21,9 +24,17 @@ class RechazarPermisoController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
+    public function create($id)
     {
-        return view('permisoRechazado');
+        $permiso = DB::table('permisos')
+        ->select(['id','email'])
+        ->where('id', $id)
+        ->take(1)
+        ->get();
+
+        $mail = $permiso[0]->email;
+        Mail::to($mail)->queue(new PermisoRechazadoEmail($id));
+        return view('permisoRechazado')->with('permiso', $permiso);
     }
 
     /**
