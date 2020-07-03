@@ -25,7 +25,7 @@ class AceptarPermisoController extends Controller
     public function create($id)
     {
         $permiso = DB::table('permisos')
-        ->select(['email'])
+        ->select('email')
         ->where('id', $id)
         ->take(1)
         ->get();
