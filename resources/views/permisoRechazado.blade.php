@@ -15,9 +15,14 @@
         <a class="nav-link" href="{{url('/')}}">Sistema de Solicitud de Permisos</a>
         </li>
     </nav>
-    <div class="form-group">
 
-        <label>Solicitud de Permiso n° {{$permiso[0]->id}} Rechazado</label>
+    <div class="container col-sm-7 tituloForm">
+        <h1>Procesar Permiso</h1>
+    </div>
+
+    <div class="container col-sm-8 border formPermiso-group">
+
+        <p>Solicitud de Permiso n° {{$permiso[0]->id}} Rechazada</p>
                 
     </div>
 </body>
