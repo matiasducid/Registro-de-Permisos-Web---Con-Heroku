@@ -21,9 +21,14 @@ class AceptarPermisoController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
+    public function create($id)
     {
-        return view('permisoAceptado');
+        $permiso = DB::table('permisos')
+        ->select(['email'])
+        ->where('id', $id)
+        ->take(1)
+        ->get();
+        return view('permisoAceptado')->with('permiso', $permiso);
     }
 
     /**

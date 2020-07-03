@@ -72,9 +72,8 @@
 
                     <br>
                     <div class="text-center">
-                    <a href="{{url('aceptarPermiso')}}" class="btn btn-secondary">Aceptar</a>
-                        
-                        <button type="submit" class="btn btn-secondary">Rechazar</button>
+                        <a href="{{url('aceptarPermiso/$permiso[0]->id')}}" class="btn btn-secondary">Aceptar</a>
+                        <a href="{{url('rechazarPermiso')}}" class="btn btn-secondary">Rechazar</a>
                     </div>
 
                 </div>
