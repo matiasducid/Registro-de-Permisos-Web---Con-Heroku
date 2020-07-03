@@ -17,12 +17,12 @@
     </nav>
 
     <div class="container col-sm-7 tituloForm">
-        <h1>Procesar Permiso</h1>
+        <h1>Permiso Procesado</h1>
     </div>
 
     <div class="container col-sm-8 border formPermiso-group">
 
-        <p class="confirmacion">Solicitud de Permiso n° {{$permiso[0]->id}} Rechazada</p>
+        <label class="confirmacion">Solicitud de Permiso n° {{$permiso[0]->id}} Rechazada</label>
                 
     </div>
 </body>
