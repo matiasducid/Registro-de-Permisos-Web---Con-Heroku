@@ -7,7 +7,7 @@
 </head>
 <body>
     SE acepto su permiso
-    email: {{$permiso[0]->email}}
+    email: {{$permiso}}
 </body>
 </html>
 
