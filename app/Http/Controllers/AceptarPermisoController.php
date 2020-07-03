@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Mail;
+use App\Mail\PermisoAceptadoEmail; 
 
 class AceptarPermisoController extends Controller
 {
@@ -29,6 +31,10 @@ class AceptarPermisoController extends Controller
         ->where('id', $id)
         ->take(1)
         ->get();
+
+        $mail = $permiso[0]->email;
+
+        Mail::to($mail)->queue(new PermisoAceptadoEmail($id));
 
         return view('permisoAceptado')->with('permiso', $permiso);
     }
