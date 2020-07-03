@@ -88,7 +88,6 @@ class PermisoController extends Controller
         Mail::to('abigail_lucii@hotmail.com')->queue(new PermisoSolicitado($msj, $id));
 
         return back()->with('mensaje', 'Permiso Solicitado');
-        //return "hola $id";
     }
 
     /**
