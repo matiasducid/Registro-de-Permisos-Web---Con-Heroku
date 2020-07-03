@@ -22,5 +22,5 @@ Route::post('solicitarpermiso', 'PermisoController@store');
 
 Route::get('procesarpermiso/{id}', 'ProcesarPermisoController@create');
 
-Route::get('aceptarPermiso', 'AceptarPermisoController@create');
+Route::get('aceptarPermiso/{id}', 'AceptarPermisoController@create');
 Route::get('rechazarPermiso', 'RechazarPermisoController@create');
