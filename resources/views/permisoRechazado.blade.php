@@ -22,7 +22,7 @@
 
     <div class="container col-sm-8 border formPermiso-group">
 
-        <p>Solicitud de Permiso n° {{$permiso[0]->id}} Rechazada</p>
+        <p class="confirmacion">Solicitud de Permiso n° {{$permiso[0]->id}} Rechazada</p>
                 
     </div>
 </body>
