@@ -1,1 +1,2 @@
 SU PERMISO ACEPTADO
+{{$permiso}}
