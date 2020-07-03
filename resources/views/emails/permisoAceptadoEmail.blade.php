@@ -7,9 +7,9 @@
 </head>
 <body>
     <p> Su permiso fue aceptado </p>
-        <p> Id del permiso {{$id_permiso}} </p>
+        <p> Id del permiso {{$id}} </p>
         <p> Para imprimir el permiso, dirigase a la pagina web:
-            <a href="http://registro-de-permisos.herokuapp.com/verpermiso/{{$id_permiso}}">
+            <a href="http://registro-de-permisos.herokuapp.com/verpermiso/{{$id}}">
             Ver Permiso
             </a>      
         </p>

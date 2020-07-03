@@ -12,16 +12,16 @@ class PermisoAceptadoEmail extends Mailable
     use Queueable, SerializesModels;
 
     public $subjet = 'Solicitud de Permiso Aprobada';
-    public $id_permiso;
+    public $id;
 
     /**
      * Create a new message instance.
      *
      * @return void
      */
-    public function __construct($id_permiso)
+    public function __construct($id)
     {
-        $this->id_permiso = $id_permiso;
+        $this->id = $id;
     }
 
     /**
