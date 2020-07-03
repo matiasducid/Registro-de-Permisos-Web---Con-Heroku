@@ -72,6 +72,7 @@
 
                     <br>
                     <div class="text-center">
+                    <a href="{{url('aceptarPermiso')}}" class="btn btn-secondary">Aceptar</a>
                         <button type="submit" class="btn btn-secondary">Aceptar</button>
                         <button type="submit" class="btn btn-secondary">Rechazar</button>
                     </div>
