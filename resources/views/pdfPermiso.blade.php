@@ -19,59 +19,58 @@
 
         <div class="form-group text-center">
 
-            <div class="col-sm-8"> 
+            <div class="col-8"> 
                 <label for="dni">Numero de Solicitud: 
                     <p>{{$permiso[0]->id}}</p>
                 </label>
             </div>
         
- 
-            <div class="col-sm-4">
-            <label for="dni">DNI:
-                <p>{{$permiso[0]->dni}}</p>
-            </label>
+            <div class="col-4">
+                <label for="dni">DNI:
+                    <p>{{$permiso[0]->dni}}</p>
+                </label>
             </div>
 
-            <div class="col-sm-4" >
-            <label for="apellido">Apellido:
-                <p>{{$permiso[0]->apellido}}</p>
-            </label>
+            <div class="col-4" >
+                <label for="apellido">Apellido:
+                    <p>{{$permiso[0]->apellido}}</p>
+                </label>
             </div>
 
-            <div class="col-sm-4">
-            <label  for="nombre">Nombre:
-                <p>{{$permiso[0]->nombre}}</p>
-            </label>
-            </div>
-
-            <div class="col-sm-4">
-            <label  for="email">E-Mail:
-                <p>{{$permiso[0]->email}}</p>
-            </label>
+            <div class="col-4">
+                <label  for="nombre">Nombre:
+                    <p>{{$permiso[0]->nombre}}</p>
+                </label>
             </div>
 
             <div class="col-sm-4">
-            <label  for="sector">Sector:
-                <p>{{$permiso[0]->sector}}</p>
-            </label>
+                <label  for="email">E-Mail:
+                    <p>{{$permiso[0]->email}}</p>
+                </label>
             </div>
 
-            <div class="col-sm-4">           
-            <label  for="superior">Superior:
-                <p>{{$permiso[0]->superior}}</p>
-            </label>
+            <div class="col-4">
+                <label for="sector">Sector:
+                    <p>{{$permiso[0]->sector}}</p>
+                </label>
             </div>
 
-            <div class="col-sm-4">
-            <label  for="dependencia">Dependencia:
-                <p>{{$permiso[0]->dependencia}}</p>
-            </label>
+            <div class="col-4">           
+                <label for="superior">Superior:
+                    <p>{{$permiso[0]->superior}}</p>
+                </label>
             </div>
 
-            <div class="col-sm-4">
-            <label  for="espacio">Espacio Especifico: 
-            <p>{{$permiso[0]->espacio}}</p> 
-            </label>
+            <div class="col-4">
+                <label for="dependencia">Dependencia:
+                    <p>{{$permiso[0]->dependencia}}</p>
+                </label>
+            </div>
+
+            <div class="col-4">
+                <label for="espacio">Espacio Especifico: 
+                <p>{{$permiso[0]->espacio}}</p> 
+                </label>
             </div>
 
         </div> 
