@@ -11,13 +11,13 @@
 </head>
 <body>
 
-    <div class="container col-sm-11 tituloForm">
+    <div class="container col-11 tituloForm">
         <h1>Solicitud de Permiso</h1>
     </div>
 
-    <div class="container col-12 border formPermiso">
+    <div class="container col-11 border formPermiso">
 
-        <div class="form-group text-center">
+        <div class="text-center">
 
             <div class="col-8"> 
                 <label for="dni">Numero de Solicitud: 
