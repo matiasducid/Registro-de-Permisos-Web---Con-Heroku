@@ -23,42 +23,42 @@
                 <p>{{$permiso[0]->id}}</p>
             </label>
 
-            <label class="col-sm-6"for="dni">DNI:
+            <label class="col-sm-12"for="dni">DNI:
                 <p>{{$permiso[0]->dni}}</p>
             </label>
             
 
-            <label class="col-sm-6" for="apellido">Apellido:
+            <label class="col-sm-12" for="apellido">Apellido:
                 <p>{{$permiso[0]->apellido}}</p>
             </label>
             
 
-            <label class="col-sm-6" for="nombre">Nombre:
+            <label class="col-sm-12" for="nombre">Nombre:
                 <p>{{$permiso[0]->nombre}}</p>
             </label>
             
 
-            <label class="col-sm-6" for="email">E-Mail:
+            <label class="col-sm-12" for="email">E-Mail:
                 <p>{{$permiso[0]->email}}</p>
             </label>
             
 
-            <label class="col-sm-6" for="sector">Sector:
+            <label class="col-sm-12" for="sector">Sector:
                 <p>{{$permiso[0]->sector}}</p>
             </label>
             
             
-            <label class="col-sm-6" for="superior">Superior:
+            <label class="col-sm-12" for="superior">Superior:
                 <p>{{$permiso[0]->superior}}</p>
             </label>
             
 
-            <label class="col-sm-6" for="dependencia">Dependencia:
+            <label class="col-sm-12" for="dependencia">Dependencia:
                 <p>{{$permiso[0]->dependencia}}</p>
             </label>
             
 
-            <label class="col-sm-6" for="espacio">Espacio Especifico: <p>{{$permiso[0]->espacio}}</p> </label>
+            <label class="col-sm-12" for="espacio">Espacio Especifico: <p>{{$permiso[0]->espacio}}</p> </label>
 
         </div> 
     </div>
