@@ -18,7 +18,7 @@
     </nav>
 
 
-    <div class="container col-sm-12 tituloForm">
+    <div class="container col-sm-11 tituloForm">
         <h1>Solicitud de Permiso</h1>
     </div>
 
@@ -26,7 +26,7 @@
 
         <div class="form-group text-center">
         
-            <label class="col-sm-4"for="dni">Numero de Solicitud: 
+            <label class="col-sm-8"for="dni">Numero de Solicitud: 
                 <p>{{$permiso[0]->id}}</p>
             </label>
 
@@ -46,27 +46,27 @@
             
 
             <label class="col-sm-4" for="email">E-Mail:
-                <p>Numero de Solicitud: {{$permiso[0]->email}}</p>
+                <p>{{$permiso[0]->email}}</p>
             </label>
             
 
             <label class="col-sm-4" for="sector">Sector:
-                <p>Numero de Solicitud: {{$permiso[0]->sector}}</p>
+                <p>{{$permiso[0]->sector}}</p>
             </label>
             
             
             <label class="col-sm-4" for="superior">Superior:
-                <p>Numero de Solicitud: {{$permiso[0]->superior}}</p>
+                <p>{{$permiso[0]->superior}}</p>
             </label>
             
 
             <label class="col-sm-4" for="dependencia">Dependencia:
-                <p>Numero de Solicitud: {{$permiso[0]->dependencia}}</p>
+                <p>{{$permiso[0]->dependencia}}</p>
             </label>
             
 
             <label class="col-sm-4" for="espacio">Espacio Especifico:
-                <p>Numero de Solicitud: {{$permiso[0]->espacio}}</p>
+                <p>{{$permiso[0]->espacio}}</p>
             </label>
 
         </div> 
