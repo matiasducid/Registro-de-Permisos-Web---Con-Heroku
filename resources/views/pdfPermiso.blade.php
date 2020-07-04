@@ -22,7 +22,7 @@
         <div class="form-group text-center">
             <div>
             <label class="col-sm-11 text-left"for="dni">Numero de Solicitud:
-                <input type="text" class="form-control" name="dni" value="{{$permiso[0]->id}}" disabled>
+                <input type="text" class="form-control text-center" name="dni" value="{{$permiso[0]->id}}" disabled>
             </label>
             </div>
             <div>
