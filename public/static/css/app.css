@@ -23,3 +23,7 @@ html, body {
     text-align: center;
     font-size: medium;
 }
+
+.paraLabel{
+    text-align: right; 
+}
