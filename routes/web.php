@@ -26,3 +26,4 @@ Route::get('aceptarPermiso/{id}', 'AceptarPermisoController@create');
 Route::get('rechazarPermiso/{id}', 'RechazarPermisoController@create');
 
 Route::get('verpermiso/{id}', 'VerPermisoController@create');
+Route::get('descargarpermiso/{id}', 'DescargarPermisoController@create');

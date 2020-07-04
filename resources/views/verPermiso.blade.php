@@ -1,6 +1,3 @@
-SU PERMISO ACEPTADO
-{{$permiso}}
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,7 +8,7 @@ SU PERMISO ACEPTADO
     <link href="{{ asset('static/css/app.css') }}" rel="stylesheet" type="text/css"/>
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
-    <title>Procesar Permiso</title>
+    <title>Permiso</title>
 </head>
 <body>
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
@@ -22,12 +19,10 @@ SU PERMISO ACEPTADO
     </nav>
 
     <div class="container col-sm-7 tituloForm">
-        <h1>Procesar Permiso</h1>
+        <h1>Solicitud de Permiso</h1>
     </div>
 
     <div class="container col-sm-8 border formPermiso">
-
-        <h2>Solicitud:</h2>
 
         <form action="" method="get">
             @csrf
@@ -75,6 +70,7 @@ SU PERMISO ACEPTADO
 
                     <br>
                     <div class="text-center">
+                    <a href="http://registro-de-permisos.herokuapp.com/descargarpermiso/{{$permiso[0]->id}}" class="btn btn-secondary">Descargar</a>
                     </div>
 
                 </div>
