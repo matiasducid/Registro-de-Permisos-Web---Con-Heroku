@@ -18,7 +18,7 @@
     </nav>
 
 
-    <div class="container col-sm-7 tituloForm">
+    <div class="container col-sm-12 tituloForm">
         <h1>Solicitud de Permiso</h1>
     </div>
 
@@ -31,41 +31,41 @@
             </label>
 
             <label class="col-sm-4"for="dni">DNI:
-                <p>{{$permiso[0]->dni}}}</p>
+                <p>{{$permiso[0]->dni}}</p>
             </label>
             
 
-            <label class="col-sm-7" for="apellido">Apellido:
+            <label class="col-sm-4" for="apellido">Apellido:
                 <p>{{$permiso[0]->apellido}}</p>
             </label>
             
 
-            <label class="col-sm-6" for="nombre">Nombre:
+            <label class="col-sm-4" for="nombre">Nombre:
                 <p>{{$permiso[0]->nombre}}</p>
             </label>
             
 
-            <label class="col-sm-5" for="email">E-Mail:
+            <label class="col-sm-4" for="email">E-Mail:
                 <p>Numero de Solicitud: {{$permiso[0]->email}}</p>
             </label>
             
 
-            <label class="col-sm-5" for="sector">Sector:
+            <label class="col-sm-4" for="sector">Sector:
                 <p>Numero de Solicitud: {{$permiso[0]->sector}}</p>
             </label>
             
             
-            <label class="col-sm-6" for="superior">Superior:
+            <label class="col-sm-4" for="superior">Superior:
                 <p>Numero de Solicitud: {{$permiso[0]->superior}}</p>
             </label>
             
 
-            <label class="col-sm-11" for="dependencia">Dependencia:
+            <label class="col-sm-4" for="dependencia">Dependencia:
                 <p>Numero de Solicitud: {{$permiso[0]->dependencia}}</p>
             </label>
             
 
-            <label class="col-sm-11" for="espacio">Espacio Especifico:
+            <label class="col-sm-4" for="espacio">Espacio Especifico:
                 <p>Numero de Solicitud: {{$permiso[0]->espacio}}</p>
             </label>
 
