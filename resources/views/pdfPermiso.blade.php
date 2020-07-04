@@ -6,7 +6,6 @@
 
     <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet" type="text/css"/>
     <link href="{{ asset('static/css/app.css') }}" rel="stylesheet" type="text/css"/>
-    <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
     <title>Permiso</title>
 </head>
@@ -66,12 +65,6 @@
                     <label class="col-sm-11" for="espacio">Espacio Especifico:
                         <input type="text" class="form-control" name="espacio" value="{{$permiso[0]->espacio}}" disabled>
                     </label>
-
-
-                    <br>
-                    <div class="text-center">
-                    <a href="http://registro-de-permisos.herokuapp.com/descargarpermiso/{{$permiso[0]->id}}" class="btn btn-secondary">Descargar</a>
-                    </div>
 
                 </div>
         </form>   
