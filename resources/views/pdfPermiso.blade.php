@@ -15,66 +15,54 @@
         <h1>Solicitud de Permiso</h1>
     </div>
 
-    <div class="container col-11 border formPermiso">
+    <div class="container col-sm-8 border formPermiso">
 
-        <div class="text-center">
+<form action="" method="get">
+    @csrf
+        <div class="form-group text-center">
 
-            <div class="col-8"> 
-                <label for="dni">Numero de Solicitud: 
-                    <p>{{$permiso[0]->id}}</p>
-                </label>
-            </div>
-        
-            <div class="col-4">
-                <label for="dni">DNI:
-                    <p>{{$permiso[0]->dni}}</p>
-                </label>
-            </div>
+            <label class="col-sm-4"for="dni">DNI:
+                <input type="text" class="form-control" name="dni" value="{{$permiso[0]->dni}}" disabled>
+            </label>
+            
 
-            <div class="col-4" >
-                <label for="apellido">Apellido:
-                    <p>{{$permiso[0]->apellido}}</p>
-                </label>
-            </div>
+            <label class="col-sm-7" for="apellido">Apellido:
+                <input type="text" class="form-control" name="apellido" value="{{$permiso[0]->apellido}}" disabled>
+            </label>
+            
 
-            <div class="col-4">
-                <label  for="nombre">Nombre:
-                    <p>{{$permiso[0]->nombre}}</p>
-                </label>
-            </div>
+            <label class="col-sm-6" for="nombre">Nombre:
+                <input type="text" class="form-control" name="nombre" value="{{$permiso[0]->nombre}}" disabled>
+            </label>
+            
 
-            <div class="col-sm-4">
-                <label  for="email">E-Mail:
-                    <p>{{$permiso[0]->email}}</p>
-                </label>
-            </div>
+            <label class="col-sm-5" for="email">E-Mail:
+                <input type="text" class="form-control" name="email" value="{{$permiso[0]->email}}" disabled>
+            </label>
+            
 
-            <div class="col-4">
-                <label for="sector">Sector:
-                    <p>{{$permiso[0]->sector}}</p>
-                </label>
-            </div>
+            <label class="col-sm-5" for="sector">Sector:
+                <input type="text" class="form-control" name="sector" value="{{$permiso[0]->sector}}" disabled>
+            </label>
+            
+            
+            <label class="col-sm-6" for="superior">Superior:
+                <input type="text" class="form-control" name="superior" value="{{$permiso[0]->superior}}" disabled>
+            </label>
+            
 
-            <div class="col-4">           
-                <label for="superior">Superior:
-                    <p>{{$permiso[0]->superior}}</p>
-                </label>
-            </div>
+            <label class="col-sm-11" for="dependencia">Dependencia:
+                <input type="text" class="form-control" name="dependencia" value="{{$permiso[0]->dependencia}}" disabled>
+            </label>
+            
 
-            <div class="col-4">
-                <label for="dependencia">Dependencia:
-                    <p>{{$permiso[0]->dependencia}}</p>
-                </label>
-            </div>
+            <label class="col-sm-11" for="espacio">Espacio Especifico:
+                <input type="text" class="form-control" name="espacio" value="{{$permiso[0]->espacio}}" disabled>
+            </label>
 
-            <div class="col-4">
-                <label for="espacio">Espacio Especifico: 
-                <p>{{$permiso[0]->espacio}}</p> 
-                </label>
-            </div>
-
-        </div> 
-    </div>
+        </div>
+</form>   
+</div>
 
 </body>
 </html>
