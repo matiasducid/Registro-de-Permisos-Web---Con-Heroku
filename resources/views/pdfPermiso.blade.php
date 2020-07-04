@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet" type="text/css"/>
-    <link href="{{ asset('static/css/app.css') }}" rel="stylesheet" type="text/css"/>
+    <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet" type="text/css"  media="print"/>
+    <link href="{{ asset('static/css/app.css') }}" rel="stylesheet" type="text/css"  media="print"/>
 
     <title>Permiso</title>
 </head>
@@ -26,7 +26,7 @@
 
         <div class="form-group text-center">
         
-            <label class="col-sm-8"for="dni">Numero de Solicitud: 
+            <label class="col-sm-12"for="dni">Numero de Solicitud: 
                 <p>{{$permiso[0]->id}}</p>
             </label>
 
