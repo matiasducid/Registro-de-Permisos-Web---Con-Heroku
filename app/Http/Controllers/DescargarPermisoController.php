@@ -31,7 +31,11 @@ class DescargarPermisoController extends Controller
         ->take(1)
         ->get();
 
-        $pdf = \PDF::loadView('verPermiso')->with('permiso', $permiso);
+        $data = [
+            'permiso'=> $permiso
+        ]
+
+        $pdf = \PDF::loadView('verPermiso', $data);
         return $pdf->download('permiso.pdf');
     
         //return view('descargarPermiso')->with('permiso', $permiso);
