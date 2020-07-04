@@ -21,37 +21,37 @@
     @csrf
         <div class="form-group text-center">
             <div>
-            <label class="col-sm-8"for="dni">Numero de Solicitud:
+            <label class="col-sm-11"for="dni">Numero de Solicitud:
                 <input type="text" class="form-control" name="dni" value="{{$permiso[0]->id}}" disabled>
             </label>
             </div>
             <div>
-            <label class="col-sm-4"for="dni">DNI:
+            <label class="col-sm-11"for="dni">DNI:
                 <input type="text" class="form-control" name="dni" value="{{$permiso[0]->dni}}" disabled>
             </label>
             </div>
             <div>
-            <label class="col-sm-4" for="apellido">Apellido:
+            <label class="col-sm-11" for="apellido">Apellido:
                 <input type="text" class="form-control" name="apellido" value="{{$permiso[0]->apellido}}" disabled>
             </label>
             </div>
             <div>
-            <label class="col-sm-4" for="nombre">Nombre:
+            <label class="col-sm-11" for="nombre">Nombre:
                 <input type="text" class="form-control" name="nombre" value="{{$permiso[0]->nombre}}" disabled>
             </label>
             </div>
             <div>
-            <label class="col-sm-5" for="email">E-Mail:
+            <label class="col-sm-11" for="email">E-Mail:
                 <input type="text" class="form-control" name="email" value="{{$permiso[0]->email}}" disabled>
             </label>
             </div>
             <div>
-            <label class="col-sm-3" for="sector">Sector:
+            <label class="col-sm-11" for="sector">Sector:
                 <input type="text" class="form-control" name="sector" value="{{$permiso[0]->sector}}" disabled>
             </label>
             </div>
             <div>
-            <label class="col-sm-6" for="superior">Superior:
+            <label class="col-sm-11" for="superior">Superior:
                 <input type="text" class="form-control" name="superior" value="{{$permiso[0]->superior}}" disabled>
             </label>
             </div>
