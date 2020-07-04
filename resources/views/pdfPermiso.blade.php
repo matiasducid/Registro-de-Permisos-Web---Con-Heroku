@@ -15,7 +15,7 @@
         <h1>Solicitud de Permiso</h1>
     </div>
 
-    <div class="container col-sm-8 border formPermiso">
+    <div class="container border formPermiso">
 
         <div class="form-group text-center">
         
