@@ -23,8 +23,13 @@ class VerPermisoController extends Controller
      */
     public function create($id)
     {
+        $permiso = DB::table('permisos')
+        ->select(['id','dni','apellido', 'nombre', 'email', 'sector', 'superior', 'dependencia', 'espacio'])
+        ->where('id', $id)
+        ->take(1)
+        ->get();
 
-        return view('verPermiso')->with('permiso', $id);
+        return view('verPermiso')->with('permiso', $permiso);
     }
 
     /**
