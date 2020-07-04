@@ -31,22 +31,22 @@
             </label>
             
 
-            <label class="col-sm-6" for="nombre">Nombre:
+            <label class="col-sm-4" for="nombre">Nombre:
                 <input type="text" class="form-control" name="nombre" value="{{$permiso[0]->nombre}}" disabled>
             </label>
             
 
-            <label class="col-sm-5" for="email">E-Mail:
+            <label class="col-sm-7" for="email">E-Mail:
                 <input type="text" class="form-control" name="email" value="{{$permiso[0]->email}}" disabled>
             </label>
             
 
-            <label class="col-sm-5" for="sector">Sector:
+            <label class="col-sm-4" for="sector">Sector:
                 <input type="text" class="form-control" name="sector" value="{{$permiso[0]->sector}}" disabled>
             </label>
             
             
-            <label class="col-sm-6" for="superior">Superior:
+            <label class="col-sm-7" for="superior">Superior:
                 <input type="text" class="form-control" name="superior" value="{{$permiso[0]->superior}}" disabled>
             </label>
             
