@@ -19,46 +19,46 @@
 
         <div class="form-group text-center">
         
-            <label class="col-sm-12"for="dni">Numero de Solicitud: 
+            <label for="dni">Numero de Solicitud: 
                 <p>{{$permiso[0]->id}}</p>
             </label>
 
-            <label class="col-sm-12"for="dni">DNI:
+            <label for="dni">DNI:
                 <p>{{$permiso[0]->dni}}</p>
             </label>
             
 
-            <label class="col-sm-12" for="apellido">Apellido:
+            <label for="apellido">Apellido:
                 <p>{{$permiso[0]->apellido}}</p>
             </label>
             
 
-            <label class="col-sm-12" for="nombre">Nombre:
+            <label for="nombre">Nombre:
                 <p>{{$permiso[0]->nombre}}</p>
             </label>
             
 
-            <label class="col-sm-12" for="email">E-Mail:
+            <label for="email">E-Mail:
                 <p>{{$permiso[0]->email}}</p>
             </label>
             
 
-            <label class="col-sm-12" for="sector">Sector:
+            <label  for="sector">Sector:
                 <p>{{$permiso[0]->sector}}</p>
             </label>
             
             
-            <label class="col-sm-12" for="superior">Superior:
+            <label  for="superior">Superior:
                 <p>{{$permiso[0]->superior}}</p>
             </label>
             
 
-            <label class="col-sm-12" for="dependencia">Dependencia:
+            <label for="dependencia">Dependencia:
                 <p>{{$permiso[0]->dependencia}}</p>
             </label>
             
 
-            <label class="col-sm-12" for="espacio">Espacio Especifico: <p>{{$permiso[0]->espacio}}</p> </label>
+            <label for="espacio">Espacio Especifico: <p>{{$permiso[0]->espacio}}</p> </label>
 
         </div> 
     </div>
