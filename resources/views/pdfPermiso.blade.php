@@ -65,8 +65,9 @@
                 <input type="text" class="form-control text-center" name="espacio" value="{{$permiso[0]->espacio}}" disabled>
             </label>
             </div>
+            <img src="{{$qr}}">
             
-            {{$qr}}
+            
 
 
         </div>
