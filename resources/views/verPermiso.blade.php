@@ -68,6 +68,11 @@
                     </label>
 
 
+                    <div class="title m-b-md">
+                    {!!QrCode::size(300)->generate("www.nigmacode.com") !!}
+                    </div>
+
+
                     <br>
                     <div class="text-center">
                     <a href="http://registro-de-permisos.herokuapp.com/descargarpermiso/{{$permiso[0]->id}}" class="btn btn-secondary">Descargar</a>
