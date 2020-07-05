@@ -70,7 +70,7 @@
                     {!! QrCode::size(300)->generate($permiso[0]->dni ); !!}
 
                     
-                    <?php $id=$permiso[0]->id echo QrCode::size(30)->generate($id); ?>
+                    <?php $id=$permiso[0]->id; echo QrCode::size(30)->generate($id); ?>
 
 
                     <br>
