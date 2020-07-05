@@ -30,7 +30,12 @@ class VerPermisoController extends Controller
         ->take(1)
         ->get();
 
-        return view('verPermiso')->with('permiso', $permiso);
+        $image = QrCode::format('png')
+            ->size(200)->errorCorrection('H')
+            ->generate($id);
+
+        return view('verPermiso')->with('permiso', $permiso)->with('imagen', $image);
+        //return view('verPermiso')->with('permiso', $permiso);
     }
 
     /**

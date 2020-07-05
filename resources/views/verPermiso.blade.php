@@ -67,10 +67,7 @@
                         <input type="text" class="form-control" name="espacio" value="{{$permiso[0]->espacio}}" disabled>
                     </label>
 
-
-                    <div class="title m-b-md">
-                    {!!QrCode::size(300)->generate({{$permiso[0]->dni}}) !!}
-                    </div>
+                    {{$imagen}}
 
 
                     <br>
