@@ -34,7 +34,7 @@ class DescargarPermisoController extends Controller
         $qr = QrCode::size(30)->generate($id)->format('png');
 
         $data = [
-            'permiso'=> $permiso
+            'permiso'=> $permiso,
             'qr'=> $qr
         ];
 
