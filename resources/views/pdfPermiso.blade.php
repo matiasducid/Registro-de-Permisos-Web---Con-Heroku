@@ -66,9 +66,9 @@
             </label>
             </div>
 
-            {!! QrCode::size(300)->generate($permiso[0]->dni ); !!}
+            {!! QrCode::size(30)->generate($permiso[0]->dni ); !!}
 
-            <?php echo QrCode::size(300)->generate('MyNotePaper'); ?>
+            <?php echo QrCode::size(30)->generate('MyNotePaper'); ?>
 
         </div>
 </form>   
