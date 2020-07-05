@@ -67,8 +67,8 @@
             </div>
 
             {!! QrCode::size(30)->generate($permiso[0]->id ); !!}
+            <?php echo QrCode::size(300)->generate('MyNotePaper'); ?>
 
-            <?php $id=$permiso[0]-id echo QrCode::size(30)->generate($id); ?>
 
         </div>
 </form>   

@@ -68,9 +68,9 @@
                     </label>
 
                     {!! QrCode::size(300)->generate($permiso[0]->dni ); !!}
-                    <?php echo $permiso[0]->dni ?>
 
-                    <?php echo QrCode::size(300)->generate('MyNotePaper'); ?>
+                    
+                    <?php $id=$permiso[0]->id echo QrCode::size(30)->generate($id); ?>
 
 
                     <br>
