@@ -65,8 +65,8 @@
                 <input type="text" class="form-control text-center" name="espacio" value="{{$permiso[0]->espacio}}" disabled>
             </label>
             </div>
-
-            <?php echo QrCode::size(300)->generate('MyNotePaper'); ?>
+            
+            {{$qr}}
 
 
         </div>
