@@ -15,8 +15,8 @@
         <h1>Sistema de Solicitud de Permiso</h1>
     </div>
 
-    <div class="container col-11 tituloForm">
-        <h3>Solicitud de Permiso</h3>
+    <div class="container col-8 tituloForm">
+        <h3>Permiso</h3>
     </div>
 
     <div class="container col-sm-8 border formPermiso">
