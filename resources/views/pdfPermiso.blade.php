@@ -65,7 +65,8 @@
                 <input type="text" class="form-control text-center" name="espacio" value="{{$permiso[0]->espacio}}" disabled>
             </label>
             </div>
-            <img src="data:image/png;base64, <?php echo base64_encode(QrCode::format('png')->size(100)->generate('Hola')) ?> ">
+            
+            <img src="data:image/png;base64, <?php echo base64_encode($qr) ?> ">
             
             
 
