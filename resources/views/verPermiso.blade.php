@@ -66,11 +66,10 @@
                     <label class="col-sm-11" for="espacio">Espacio Especifico:
                         <input type="text" class="form-control" name="espacio" value="{{$permiso[0]->espacio}}" disabled>
                     </label>
+
+
+                    <img src='data:image/png;base64,{{$png}}'>
                     
-                    {{$perro}}
-                    {{$imagen}}
-
-
                     <br>
                     <div class="text-center">
                     <a href="http://registro-de-permisos.herokuapp.com/descargarpermiso/{{$permiso[0]->id}}" class="btn btn-secondary">Descargar</a>

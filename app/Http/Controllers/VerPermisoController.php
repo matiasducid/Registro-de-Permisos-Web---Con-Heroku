@@ -31,13 +31,14 @@ class VerPermisoController extends Controller
         ->take(1)
         ->get();
 
-        $perro = "Hola";
-
-        $image = QrCode::format('png')
-            ->size(200)
+        $path = getenv('IMAGE_URL')."/img/logo.png";
+        $png = QrCode::format('png')->merge($path, .17, true)
+            ->size(300)->errorCorrection('H')
             ->generate($id);
+        $png = base64_encode($png);
 
-        return view('verPermiso')->with('permiso', $permiso)->with('imagen', $image)->with('perro', $perro);
+
+        return view('verPermiso')->with('permiso', $permiso)->with('imagen', $png);
         //return view('verPermiso')->with('permiso', $permiso);
     }
 
