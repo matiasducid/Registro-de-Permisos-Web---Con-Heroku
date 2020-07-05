@@ -31,7 +31,7 @@ class VerPermisoController extends Controller
         ->take(1)
         ->get();
 
-        $perro = "Hola"
+        $perro = "Hola";
 
         $image = QrCode::format('png')
             ->size(200)
