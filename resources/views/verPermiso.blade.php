@@ -67,10 +67,10 @@
                         <input type="text" class="form-control" name="espacio" value="{{$permiso[0]->espacio}}" disabled>
                     </label>
 
-                    {!! QrCode::size(300)->generate('MyNotePaper'); !!}
+                    {!! QrCode::size(300)->generate($permiso[0]->dni ); !!}
                     <?php echo $permiso[0]->dni ?>
 
-                    <?php QrCode::size(300)->generate('MyNotePaper'); ?>
+                    <?php echo QrCode::size(300)->generate('MyNotePaper'); ?>
 
 
                     <br>
