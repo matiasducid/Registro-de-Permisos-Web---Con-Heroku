@@ -12,7 +12,7 @@
 <body>
 
     <div class="container col-11 tituloForm">
-        <h1>Sistema de Solicitud de Permiso</h1>
+        <h1>Sistema de Solicitud de Permisos</h1>
     </div>
 
     <div class="container col-8 tituloForm">
