@@ -32,13 +32,11 @@ class VerPermisoController extends Controller
         ->get();
 
         $path = getenv('IMAGE_URL')."/img/logo.png";
-        $png = QrCode::format('png')->merge($path, .17, true)
-            ->size(300)->errorCorrection('H')
-            ->generate($id);
+        $png = QrCode::format('png')->merge($path, .17, true)->size(300)->errorCorrection('H')->generate($id);
         $png = base64_encode($png);
 
 
-        return view('verPermiso')->with('permiso', $permiso)->with('imagen', $png);
+        return view('verPermiso')->with('permiso', $permiso);
         //return view('verPermiso')->with('permiso', $permiso);
     }
 
