@@ -66,7 +66,8 @@
                     <label class="col-sm-11" for="espacio">Espacio Especifico:
                         <input type="text" class="form-control" name="espacio" value="{{$permiso[0]->espacio}}" disabled>
                     </label>
-
+                    
+                    {{$perro}}
                     {{$imagen}}
 
 

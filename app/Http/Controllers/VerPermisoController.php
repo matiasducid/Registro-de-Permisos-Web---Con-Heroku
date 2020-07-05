@@ -31,11 +31,13 @@ class VerPermisoController extends Controller
         ->take(1)
         ->get();
 
+        $perro = "Hola"
+
         $image = QrCode::format('png')
-            ->size(200)->errorCorrection('H')
+            ->size(200)
             ->generate($id);
 
-        return view('verPermiso')->with('permiso', $permiso)->with('imagen', $image);
+        return view('verPermiso')->with('permiso', $permiso)->with('imagen', $image)->with('perro', $perro);
         //return view('verPermiso')->with('permiso', $permiso);
     }
 
