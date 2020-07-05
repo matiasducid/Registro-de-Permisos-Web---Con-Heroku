@@ -65,7 +65,9 @@
                 <input type="text" class="form-control text-center" name="espacio" value="{{$permiso[0]->espacio}}" disabled>
             </label>
             </div>
-x
+
+            {!! QrCode::size(30)->generate($permiso[0]->id ); !!}
+            
 
 
         </div>
