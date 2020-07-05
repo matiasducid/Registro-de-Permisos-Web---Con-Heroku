@@ -12,7 +12,11 @@
 <body>
 
     <div class="container col-11 tituloForm">
-        <h1>Solicitud de Permiso</h1>
+        <h1>Sistema de Solicitud de Permiso</h1>
+    </div>
+
+    <div class="container col-11 tituloForm">
+        <h3>Solicitud de Permiso</h3>
     </div>
 
     <div class="container col-sm-8 border formPermiso">
@@ -68,9 +72,6 @@
             
             <img src="data:image/png;base64, <?php echo base64_encode($qr) ?> ">
             
-            
-
-
         </div>
 </form>   
 </div>

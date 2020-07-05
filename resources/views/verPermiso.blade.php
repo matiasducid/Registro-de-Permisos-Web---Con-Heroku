@@ -67,12 +67,6 @@
                         <input type="text" class="form-control" name="espacio" value="{{$permiso[0]->espacio}}" disabled>
                     </label>
 
-                    {!! QrCode::size(300)->generate($permiso[0]->dni); !!}
-
-                    
-                    <?php echo QrCode::size(300)->generate('31'); ?>
-
-
                     <br>
                     <div class="text-center">
                     <a href="http://registro-de-permisos.herokuapp.com/descargarpermiso/{{$permiso[0]->id}}" class="btn btn-secondary">Descargar</a>
