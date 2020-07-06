@@ -6,6 +6,6 @@
     <title>Permiso Rechazado</title>
 </head>
 <body>
-    <p> Buenas {{$permiso[0]->apellido}}, {{$permiso[0]->nombre}}. Su solicitud de permiso fue rechazada </p>
+    <p> Buenas {{$permiso[0]->apellido}}, {{$permiso[0]->nombre}}. Su solicitud de permiso fue rechazada. </p>
 </body>
 </html>
