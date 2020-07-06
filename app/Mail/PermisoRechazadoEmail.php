@@ -12,17 +12,17 @@ class PermisoRechazadoEmail extends Mailable
     use Queueable, SerializesModels;
 
     public $subjet = 'Solicitud de Permiso Rechazada';
-    public $id;
+    public $permiso;
 
 
     /**
      * Create a new message instance.
      *
-     * @return void
+     * @return vopermiso
      */
-    public function __construct($id)
+    public function __construct($permiso)
     {
-        $this->id = $id;
+        $this->permiso = $permiso;
     }
 
     /**
