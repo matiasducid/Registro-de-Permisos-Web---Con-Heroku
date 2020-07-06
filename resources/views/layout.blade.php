@@ -77,7 +77,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-xs-12">
+            <div class="col-xs-12 pull-right">
                 <img src="{{ asset('images/albatroz-unpsjb.png')}}" class="logo_superior_derecho pull-right">
             </div>
         
