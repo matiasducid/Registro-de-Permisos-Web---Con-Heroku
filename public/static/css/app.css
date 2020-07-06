@@ -48,7 +48,9 @@ html, body {
 }
 .direccion_footer::after{
     content: "Direccion: Av. Fontana 127-129, Trelew, Chubut.";
-
+}
+.telefono_footer::after{
+    content: "Telefono: (0297) 455-7856";
 }
 .footer{
     background-color: rgb(200, 200, 200) ;

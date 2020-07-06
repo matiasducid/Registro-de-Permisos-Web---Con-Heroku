@@ -85,6 +85,7 @@
     </body>
     <footer class="footer">
         <p class="direccion_footer"></p>
+        <p class="telefono_footer"></p>
     </footer>
 </html>
 
