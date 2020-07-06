@@ -32,6 +32,10 @@ class RechazarPermisoController extends Controller
         ->take(1)
         ->get();
 
+        DB::table('permisos')
+        ->where('id', $id)
+        ->update(array('estado' => 'Rechazado'));
+
         $mail = $permiso[0]->email;
         Mail::to($mail)->queue(new PermisoRechazadoEmail($permiso));
         return view('permisoRechazado')->with('permiso', $permiso);
