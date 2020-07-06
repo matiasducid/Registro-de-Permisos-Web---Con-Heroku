@@ -54,7 +54,7 @@ html, body {
 }
 .footer{
     background-color: rgb(200, 200, 200) ;
-    height: 30px;
+    height: auto;
     text-align: center;
     margin-bottom: 0px;
     margin-top: 10px;
