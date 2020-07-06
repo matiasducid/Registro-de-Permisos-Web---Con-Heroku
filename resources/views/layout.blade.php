@@ -76,7 +76,7 @@
             </li>
         </ul>
         <div class="pull-right" style="text-align:right">
-            <img src="{{ asset('images/albatroz-unpsjb.png')}}" class="logo_superior_derecho" >
+            <p><img src="{{ asset('images/albatroz-unpsjb.png')}}" class="logo_superior_derecho" ></p>
         </div>
         
         </nav>
