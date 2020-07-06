@@ -75,7 +75,7 @@
             
             </li>
         </ul>
-        <img src="{{ asset('images/albatroz-unpsjb.png')}}" class="logo_superior_derecho flex-center position-ref full-height">
+        <img src="{{ asset('images/albatroz-unpsjb.png')}}" class="logo_superior_derecho flex-right position-ref">
         </nav>
 
     	@yield('content')
