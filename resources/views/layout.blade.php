@@ -82,7 +82,7 @@
         
 
     </body>
-    <footer>
+    <footer class="footer">
         <p class="direccion_footer"></p>
     </footer>
 </html>

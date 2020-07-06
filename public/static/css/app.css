@@ -36,7 +36,6 @@ html, body {
 
 .nombre_organizacion::after{
     content: "de UNPSJB";
-    align-content: flex-end;
 }
 
 .logo_superior_derecho{
@@ -45,4 +44,7 @@ html, body {
 }
 .direccion_footer::after{
     content: "Direccion: Av. Fontana 127-129, Trelew, Chubut."
+}
+.footer{
+    background-color: rgb(200, 200, 200) ;
 }
