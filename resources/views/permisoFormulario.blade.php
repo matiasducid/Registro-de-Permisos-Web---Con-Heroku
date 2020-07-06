@@ -1,7 +1,7 @@
 @extends('layout')
-
+@section('content')
     <div class="container col-sm-7 tituloForm">
-        <h1>Permiso Procesado</h1>
+        <h1>Formulario de Permiso</h1>
     </div>
 
 
@@ -60,3 +60,4 @@
             </div>
         </form>   
     </div>    
+@endsection
