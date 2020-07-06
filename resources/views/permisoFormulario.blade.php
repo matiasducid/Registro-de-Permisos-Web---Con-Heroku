@@ -1,8 +1,9 @@
 @extends('layout')
 
-@section('tirulo', "Formulario de Permiso")
 
+@section('titulo', "Formulario de Permiso")
 @section('formulario')
+
         <br>
         @if($errors->any())
             <div class="alert alert-danger">
