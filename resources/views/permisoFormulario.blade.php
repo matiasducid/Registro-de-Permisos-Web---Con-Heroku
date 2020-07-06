@@ -55,7 +55,7 @@
                 <label for="espacio">Espacio Especifico:</label>
                 <input type="text" class="form-control" name="espacio" value="{{old('espacio')}}"placeholder="¿En que espacio especifico trabaja?">
 
-                <input type="text" class="form-control" name="aprobado" value="False" placeholder="False" style="display:none" >
+                <input type="text" class="form-control" name="estado" value="Sin Procesar" style="display:none" >
  
 
                 <br>

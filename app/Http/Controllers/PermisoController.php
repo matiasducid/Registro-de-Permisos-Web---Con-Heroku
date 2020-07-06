@@ -48,19 +48,19 @@ class PermisoController extends Controller
             'superior' => 'required',
             'dependencia' => 'required',
             'espacio' => 'required',
-            'aprobado' => 'required' ,
+            'estado' => 'required' ,
         ],
         [
-            'dni.max' => 'Maximo de caracteres para el nombre son 8',
-            'dni.required' => 'El dni es requerido',
-            'apellido.required' => 'El apellido es requerido',
-            'nombre.required' => 'El nombre es requerido',
-            'email.required' => 'El email es requerido',
-            'sector.required' => 'El sector es requerido',
-            'superior.required' => 'El superior es requerido',
-            'dependencia.required' => 'El superior es requerido',
-            'espacio.required' => 'El espacio es requerido',
-            'aprobado.required' => ' Es necesario indicar si el permiso esta aprobado o no'
+            'dni.max' => 'Maximo de caracteres para el nombre son 8.',
+            'dni.required' => 'El dni es requerido.',
+            'apellido.required' => 'El apellido es requerido.',
+            'nombre.required' => 'El nombre es requerido.',
+            'email.required' => 'El email es requerido.',
+            'sector.required' => 'El sector es requerido.',
+            'superior.required' => 'El superior es requerido.',
+            'dependencia.required' => 'El superior es requerido.',
+            'espacio.required' => 'El espacio es requerido.',
+            'estado.required' => ' Es necesario indicar si el permiso esta aprobado, no lo esta o esta sin procesar aun.'
         ]);
 
         Permiso::create([
@@ -72,7 +72,7 @@ class PermisoController extends Controller
             'superior' => $request->get('superior') ,
             'dependencia' => $request->get('dependencia') ,
             'espacio' => $request->get('espacio') ,
-            'aprobado' => $request->get('aprobado') ,
+            'estado' => $request->get('estado') ,
 
         ]);
 
