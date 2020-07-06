@@ -70,7 +70,7 @@
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
         <ul class="navbar-nav">
             <li class="nav-item active">
-            <a class="nav-link" href="{{url('/')}}">Sistema de Solicitud de Permisos</a>
+            <a class="nav-link" href="{{url('/')}}">Sistema de Solicitud de Permisos de la UNPSJB</a>
             </li>
         </ul>
         </nav>
