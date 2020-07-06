@@ -32,7 +32,9 @@ class AceptarPermisoController extends Controller
         ->take(1)
         ->get();
 
-        $permiso[0]->estado = 'Aceptado';
+        DB::table('permisos')
+            ->where('id', $id)
+            ->update(array('estado' => 'Aprobado'));
 
         $mail = $permiso[0]->email;
 
