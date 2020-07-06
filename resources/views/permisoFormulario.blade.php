@@ -2,7 +2,6 @@
 
 @section('tirulo', "Formulario de Permiso")
 
-@section('content')
 
     <div class="container col-sm-6 border formPermiso"> 
         <br>
@@ -59,4 +58,3 @@
             </div>
         </form>   
     </div>    
-@endsection
