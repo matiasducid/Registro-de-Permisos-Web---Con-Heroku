@@ -23,7 +23,7 @@ class CreatePermisosTable extends Migration
             $table->string('superior');
             $table->string('dependencia');
             $table->string('espacio');
-            $table->boolean('aprobado');
+            $table->string('estado');
             $table->timestamps();
         });
     }
