@@ -1,9 +1,11 @@
 @extends('layout')
 
+    <div class="container col-sm-7 tituloForm">
+        <h1>Permiso Procesado</h1>
+    </div>
 
-@section('titulo', "Formulario de Permiso")
-@section('formulario')
 
+    <div class="container col-sm-6 border formPermiso"> 
         <br>
         @if($errors->any())
             <div class="alert alert-danger">
@@ -57,4 +59,4 @@
                 <button type="submit" class="btn btn-secondary">Guardar</button>
             </div>
         </form>   
-@endsection 
+    </div>    
