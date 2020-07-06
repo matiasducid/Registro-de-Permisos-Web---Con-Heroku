@@ -1,25 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet" type="text/css"/>
-    <link href="{{ asset('static/css/app.css') }}" rel="stylesheet" type="text/css"/>
-    <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+@extends('layout')
 
-    <title>Formulario de Permiso</title>
-</head>
-<body>
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-    <ul class="navbar-nav">
-        <li class="nav-item active">
-        <a class="nav-link" href="{{url('/')}}">Sistema de Solicitud de Permisos</a>
-        </li>
-    </nav>
+@section('tirulo', "Formulario de Permiso")
 
-    <div class="container col-sm-7 tituloForm">
-        <h1>Formulario de Permiso</h1>
-    </div>
+@section('content')
 
     <div class="container col-sm-6 border formPermiso"> 
         <br>
@@ -76,6 +59,4 @@
             </div>
         </form>   
     </div>    
-    <script src="js/bootstrap.min.js"></script>
-</body>
-</html>
+@endsection
