@@ -75,7 +75,7 @@
             <!--<a class="nav-link" href="{{url('/')}}">Sistema de Solicitud de Permisos de Jardin del automovil</a>-->
             </li>
         </ul>
-        <img src="{{ asset('images/albatroz-unpsjb.png')}}" alt="50" class="text-right">
+        <img src="{{ asset('images/albatroz-unpsjb.png')}}" alt="50" >
         </nav>
 
     	@yield('content')
