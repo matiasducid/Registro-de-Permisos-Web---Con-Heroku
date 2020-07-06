@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title', Sistema de Permisos)
+@section('title', "Sistema de Permisos")
 
    
 @section('content')
