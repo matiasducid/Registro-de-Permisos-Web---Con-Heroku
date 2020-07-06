@@ -7,7 +7,6 @@
 </head>
 <body>
     <p> Buenas {{permiso[0]->apellido}}, {{permiso[0]->nombre}}. Su solicitud de permiso fue aceptada </p>
-    <p> N° de solicitud {{$id}} </p>
     <p> Para imprimir el permiso, dirigase a la pagina web:
         <a href="http://registro-de-permisos.herokuapp.com/verpermiso/{{$id}}">
         Ver Permiso

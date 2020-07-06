@@ -10,7 +10,8 @@
 
     <div class="container col-sm-4 border formPermiso-group">
 
-        <label class="confirmacion">Solicitud de Permiso n° {{$permiso[0]->id}}  <strong>Rechazada</strong></label>
+        <label class="confirmacion">Solicitud de Permiso n° {{$permiso[0]->id}}  
+        	<strong>Rechazada</strong></label>
                 
     </div>
 @endsection
