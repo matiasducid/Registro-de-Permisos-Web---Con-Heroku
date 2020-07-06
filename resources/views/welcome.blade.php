@@ -1,13 +1,10 @@
 @extends('layout')
 
 @section('title', "Sistema de Permisos")
-
-   
+ 
 @section('content')
 
-<div class="flex-center position-ref full-height">
-
-
+	<div class="flex-center position-ref full-height">
 		<div class="content">
 		    <!-- Contenido de la sección -->
 		    <div class="title m-b-md">
@@ -20,6 +17,6 @@
 		        </a>              
 		    </div>
 		</div>
-</div>
+	</div>
 @endsection
 
