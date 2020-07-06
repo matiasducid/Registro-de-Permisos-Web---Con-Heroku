@@ -7,6 +7,7 @@
         <title>@yield('title')</title>
 
         <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet" type="text/css"/>
+        <link href="{{ asset('static/css/app.css') }}" rel="stylesheet" type="text/css"/>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
