@@ -33,3 +33,7 @@ html, body {
 .paraLabel{
     text-align: right; 
 }
+
+.nombre_organizacion::after{
+    content: "de UNPSJB";
+}
