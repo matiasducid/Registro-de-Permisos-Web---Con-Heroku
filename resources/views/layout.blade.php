@@ -71,13 +71,15 @@
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
         <ul class="navbar-nav">
             <li class="nav-item active">
-            <a class="nav-link" href="{{url('/')}}">Sistema de Solicitud de Permisos</a>
+            <a class="nav-link" href="{{url('/')}}">Sistema de Solicitud de Permisos de UNPSJB</a>
+            <!--<a class="nav-link" href="{{url('/')}}">Sistema de Solicitud de Permisos de Jardin del automovil</a>-->
             </li>
         </ul>
         </nav>
 
     	@yield('content')
 
+        
 
     </body>
 </html>
