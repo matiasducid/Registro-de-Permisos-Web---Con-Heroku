@@ -72,8 +72,9 @@
         <img src="{{ asset('images/albatroz-unpsjb.png')}}" class="logo_superior_derecho" >
         <ul class="navbar-nav">
             <li class="nav-item active">
-            <a class="nav-link" href="{{url('/')}}">Sistema de Solicitud de Permisos <p class="nombre_organizacion"></p></a>
-            <!--<a class="nav-link" href="{{url('/')}}">Sistema de Solicitud de Permisos de Jardin del automovil</a>-->
+                <div class="pull-right" style="text-align:right">
+                    <a class="nav-link" href="{{url('/')}}">Sistema de Solicitud de Permisos <p class="nombre_organizacion"></p></a>
+                </div>
             </li>
         </ul>
         </nav>

@@ -34,7 +34,7 @@ html, body {
     text-align: right; 
 }
 
-.nombre_organizacion{
+.nombre_organizacion::after{
     content: "de UNPSJB";
 }
 
