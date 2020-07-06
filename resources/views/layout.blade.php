@@ -69,16 +69,13 @@
     <body>
 
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <img src="{{ asset('images/albatroz-unpsjb.png')}}" class="logo_superior_derecho" >
         <ul class="navbar-nav">
             <li class="nav-item active">
             <a class="nav-link" href="{{url('/')}}">Sistema de Solicitud de Permisos <p class="nombre_organizacion"></p></a>
             <!--<a class="nav-link" href="{{url('/')}}">Sistema de Solicitud de Permisos de Jardin del automovil</a>-->
             </li>
         </ul>
-        <div class="pull-right" style="text-align:right">
-            <p><img src="{{ asset('images/albatroz-unpsjb.png')}}" class="logo_superior_derecho" ></p>
-        </div>
-        
         </nav>
 
     	@yield('content')
