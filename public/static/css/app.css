@@ -44,10 +44,11 @@ html, body {
 }
 .direccion_footer::after{
     content: "Direccion: Av. Fontana 127-129, Trelew, Chubut.";
-    text-align: center;
-    padding: 0;
+
 }
 .footer{
     background-color: rgb(200, 200, 200) ;
     height: 30px;
+    text-align: center;
+    padding: 0;
 }
