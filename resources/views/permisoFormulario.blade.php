@@ -1,4 +1,7 @@
 @extends('layout')
+
+@section('title', "Formulario de Permiso")
+
 @section('content')
     <div class="container col-sm-7 tituloForm">
         <h1>Formulario de Permiso</h1>

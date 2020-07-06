@@ -75,16 +75,8 @@
         </ul>
         </nav>
 
-        <div class="container col-sm-7 tituloForm">
-        	<h1>@yield('titulo')</h1>
-    	</div>
-
     	@yield('content')
 
-
- 		<div class="container col-sm-6 border formPermiso">
-			@yield('formulario')
-		</div>
 
     </body>
 </html>
