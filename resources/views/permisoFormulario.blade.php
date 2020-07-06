@@ -2,8 +2,7 @@
 
 @section('tirulo', "Formulario de Permiso")
 
-
-    <div class="container col-sm-6 border formPermiso"> 
+@section('formulario')
         <br>
         @if($errors->any())
             <div class="alert alert-danger">
@@ -57,4 +56,4 @@
                 <button type="submit" class="btn btn-secondary">Guardar</button>
             </div>
         </form>   
-    </div>    
+@endsection 
