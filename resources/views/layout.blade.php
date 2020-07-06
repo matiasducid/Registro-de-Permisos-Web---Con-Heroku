@@ -83,7 +83,7 @@
 
     </body>
     <footer class="footer">
-        <p class="direccion_footer">  </p>
+        <p class="direccion_footer"></p>
     </footer>
 </html>
 
