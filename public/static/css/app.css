@@ -35,7 +35,7 @@ html, body {
 }
 
 .nombre_organizacion::after{
-    content: "de UNPSJB";
+    content: "Sistema de Solicitud de Permisos de UNPSJB";
 }
 
 .logo_superior_derecho{
