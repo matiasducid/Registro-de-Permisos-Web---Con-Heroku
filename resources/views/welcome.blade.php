@@ -8,7 +8,7 @@
 		<div class="content">
 		    <!-- Contenido de la sección -->
 		    <div class="title m-b-md">
-		        Bienvenidos al Sistema de Solicitud de Permisos <p class='nombre_organizacion'></p>
+		        <p class='nombre_organizacion_body'></p>
 		    </div>
 
 		    <div>       

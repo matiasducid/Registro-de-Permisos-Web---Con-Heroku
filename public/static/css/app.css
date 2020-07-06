@@ -38,6 +38,10 @@ html, body {
     content: "Sistema de Solicitud de Permisos de UNPSJB";
 }
 
+.nombre_organizacion_body::after{
+    content: "Bienvenidos al Sistema de Solicitud de Permisos de UNPSJB";
+}
+
 .logo_superior_derecho{
     width: 60px;
     height: 60px;    
@@ -52,3 +56,6 @@ html, body {
     text-align: center;
     padding-bottom: 0%;
 }
+
+
+
