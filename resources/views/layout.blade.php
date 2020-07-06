@@ -82,5 +82,8 @@
         
 
     </body>
+    <footer>
+        <p class="direccion_footer"></p>
+    </footer>
 </html>
 
