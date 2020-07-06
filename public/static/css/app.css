@@ -38,4 +38,8 @@ html, body {
     content: "de UNPSJB";
 }
 
-
+.logo_superior_derecho{
+    width: 50px;
+    height: 50px;
+    margin-right: auto;
+}
