@@ -4,6 +4,7 @@
 
    
 @section('content')
+<div class="content">
     <!-- Contenido de la sección -->
     <div class="title m-b-md">
         Bienvenidos al Sistema de Solicitud de Permisos
@@ -14,5 +15,6 @@
             <button class="btn btn-secondary">Solicitar Permiso</button>
         </a>              
     </div>
+</div>
 @endsection
 

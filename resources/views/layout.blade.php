@@ -75,14 +75,15 @@
         </ul>
         </nav>
 
-        <div class="container col-sm-7 tituloForm">
-        	<h1>@yield('titulo')</h1>
-    	</div>
+
 
         <div class="flex-center position-ref full-height">
-            <div class="content">
-
+         
             	 @yield('content')
+
+    	         <div class="container col-sm-7 tituloForm">
+        			<h1>@yield('titulo')</h1>
+    			</div>
 
     	 		<div class="container col-sm-6 border formPermiso">
 					@yield('formulario')
