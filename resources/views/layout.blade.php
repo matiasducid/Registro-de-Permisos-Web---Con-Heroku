@@ -84,11 +84,13 @@
 
             	 @yield('content')
 
+    	 		<div class="container col-sm-6 border formPermiso">
+					@yield('formulario')
+				</div>
+
             </div>
         </div>
-		<div class="container col-sm-6 border formPermiso">
-			@yield('formulario')
-		</div>
+
 
 
     </body>
