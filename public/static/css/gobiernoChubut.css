@@ -108,7 +108,7 @@ html, body {
 }
 
 .imagenCompania {
-    background-image: url('../images/escudo-chubut.png');
+    background-image: url('images/escudo-chubut.png');
     background-size: contain;
 }
 
