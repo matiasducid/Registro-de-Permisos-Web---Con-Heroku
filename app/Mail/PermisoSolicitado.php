@@ -25,7 +25,6 @@ class PermisoSolicitado extends Mailable
     {
         $this->msj = $msj;
         $this->id_permiso = $id_permiso;
-        $this->subject = $subjet;
     }
 
     /**
