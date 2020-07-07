@@ -73,13 +73,14 @@
         
            
             <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link align-right" href="{{url('/')}}"><p class="nombre_organizacion"></p></a>
-                </li>
 
                 <li>
                     <img src="{{ asset('images/albatroz-unpsjb.png')}}" ALIGN="right" class="logo_superior_derecho pull-right align-right">
                 </li>
+                <li class="nav-item active">
+                    <a class="nav-link align-right" href="{{url('/')}}"><p class="nombre_organizacion"></p></a>
+                </li>
+
             </ul>
 
             
