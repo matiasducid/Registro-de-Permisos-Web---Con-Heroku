@@ -115,7 +115,7 @@ html, body {
 
 @media(min-width:545px){
     .logo_superior_derecho{
-        margin-right: 50px;
+        margin-right: 30px;
         width: 60px;
         height: 60px; 
     }
