@@ -68,7 +68,7 @@ html, body {
     }
 }
 
-@media(min-width:500px){
+@media(min-width:545px){
     .logo_superior_derecho{
         margin-right: 25%; 
     }
