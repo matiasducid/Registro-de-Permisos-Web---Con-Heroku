@@ -71,7 +71,7 @@
 
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
 
-        <img src="{{ asset('images/camioneta-imagen.png')}}" ALIGN="right" class="logo_superior_derecho pull-right align-right">
+        <img src="{{ asset('images/escudo-chubut.png')}}" ALIGN="right" class="logo_superior_derecho pull-right align-right">
         <!--<img src="{{ asset('images/albatroz-unpsjb.png')}}" ALIGN="right" class="logo_superior_derecho pull-right align-right">-->
 
             <ul class="navbar-nav">
