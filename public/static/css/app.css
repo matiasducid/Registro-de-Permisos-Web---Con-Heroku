@@ -68,6 +68,12 @@ html, body {
     }
 }
 
+@media(min-width:500px){
+    .logo_superior_derecho{
+        margin-right: 25%; 
+    }
+}
+
 @media(min-width:750px) {  
     .logo_superior_derecho{
         margin-right: 55%; 
