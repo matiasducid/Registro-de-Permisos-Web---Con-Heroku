@@ -106,7 +106,7 @@ html, body {
 /*Estilos del resposive*/
 @media(min-width:480px){
     .logo_superior_derecho{
-        margin-right: 15%; 
+        margin-right: 5%; 
     }
 }
 
