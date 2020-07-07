@@ -31,7 +31,7 @@ class VerPermisoController extends Controller
         ->take(1)
         ->get();
 
-        return view('verPermiso')->with('permiso', $permiso);
+        return view('verPermiso')->with('permiso', $permiso)->with('id', $id);
     }
 
     /**
