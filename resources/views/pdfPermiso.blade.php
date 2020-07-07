@@ -11,7 +11,7 @@
 </head>
 <body>
 
-    <div class="container col-11">
+    <div class="container col-12">
 
         <div class="col-9 tituloForm">
             <h1 >Sistema de Solicitud de Permisos</h1>
