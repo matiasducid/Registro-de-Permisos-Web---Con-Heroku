@@ -76,7 +76,7 @@ html, body {
 
 @media(min-width:575px){
     .logo_superior_derecho{
-        margin-right: 35%; 
+        margin-right: 30%; 
     }
 }
 
@@ -103,6 +103,13 @@ html, body {
         margin-right: 55%; 
     }
 }
+
+@media(min-width:850px) {  
+    .logo_superior_derecho{
+        margin-right: 55%; 
+    }
+}
+
 @media(min-width:1024px) {  
     .logo_superior_derecho{
         margin-right: 60%; 
