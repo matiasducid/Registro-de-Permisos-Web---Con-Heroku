@@ -201,13 +201,6 @@ html, body {
     }
 }
 
-@media(min-width:1150px) {
-    .logo_superior_derecho{
-        margin-right: 49%; 
-        width: 60px;
-        height: 60px; 
-    }
-}
 
 @media(min-width:1280px) {
     .logo_superior_derecho{
