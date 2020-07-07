@@ -179,7 +179,7 @@ html, body {
 
 @media(min-width:850px) {  
     .logo_superior_derecho{
-        margin-right: 45%; 
+        margin-right: 40%; 
         width: 60px;
         height: 60px; 
     }
