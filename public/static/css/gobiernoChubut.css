@@ -203,7 +203,7 @@ html, body {
 
 @media(min-width:1180px) {
     .logo_superior_derecho{
-        margin-right: 55%; 
+        margin-right: 57%; 
         width: 60px;
         height: 60px; 
     }
@@ -211,7 +211,7 @@ html, body {
 
 @media(min-width:1280px) {
     .logo_superior_derecho{
-        margin-right: 60%; 
+        margin-right: 62%; 
         width: 60px;
         height: 60px; 
     }
