@@ -129,6 +129,14 @@ html, body {
     }
 }
 
+@media(min-width:600px){
+    .logo_superior_derecho{
+        margin-right: 70px; 
+        width: 60px;
+        height: 60px; 
+    }
+}
+
 @media(min-width:640px){
     .logo_superior_derecho{
         margin-right: 95px; 
