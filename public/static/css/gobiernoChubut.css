@@ -5,8 +5,8 @@
 }
 
 html, body {
-    background-color: #2cf;
-    color: #1e7dac;
+    background-color: #fff;
+    color: #636b6f;
     font-family: 'Nunito', sans-serif;
     font-weight: 200;
     height: 100vh;
@@ -53,7 +53,7 @@ html, body {
     content: "Telefono: 0280 448-0200";
 }
 .footer{
-    background-color: rgba(34, 79, 175, 0.795) ;
+    background-color: rgba(106, 145, 230, 0.795) ;
     height: auto;
     text-align: center;
     margin-bottom: 0px;
