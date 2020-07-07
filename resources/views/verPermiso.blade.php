@@ -52,7 +52,7 @@
                         <input type="text" class="form-control" name="espacio" value="{{$permiso[0]->espacio}}" disabled>
                     </label>
 
-                    {!!QrCode::size(300)->generate("www.nigmacode.com") !!}
+                    {!!QrCode::size(300)->generate($permiso[0]->dni) !!}
 
                     <br>
                     <div class="text-center">
