@@ -4,6 +4,12 @@
     color: black;
 }
 
+.ocupar{
+    width: 400px;
+    height: 400px;
+    text-align: center;
+}
+
 html, body {
     background-color: #fff;
     color: #065c88;

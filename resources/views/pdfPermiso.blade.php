@@ -13,6 +13,8 @@
 
     <div class="container col-11 tituloForm">
         <h1>Sistema de Solicitud de Permisos</h1>
+        <!--<img src="{{ asset('images/escudo-chubut.png')}}" ALIGN="right" class="logo_superior_derecho pull-right align-right">-->
+        <img src="{{ asset('images/albatroz-unpsjb.png')}}" ALIGN="right" class="logo_superior_derecho pull-right align-right">
     </div>
 
     <div class="container col-8 tituloForm">
