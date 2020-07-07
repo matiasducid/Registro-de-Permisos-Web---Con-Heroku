@@ -7,7 +7,7 @@
         <title>@yield('title')</title>
 
         <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet" type="text/css"/>
-        <link href="{{ asset('static/css/jardinCamionetas.css') }}" rel="stylesheet" type="text/css"/>
+        <link href="{{ asset('static/css/gobiernoChubut.css') }}" rel="stylesheet" type="text/css"/>
         <!--<link href="{{ asset('static/css/app.css') }}" rel="stylesheet" type="text/css"/>-->
 
         <!-- Fonts -->
