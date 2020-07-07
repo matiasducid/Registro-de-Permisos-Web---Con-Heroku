@@ -123,7 +123,7 @@ html, body {
 
 @media(min-width:575px){
     .logo_superior_derecho{
-        margin-right: 50px; 
+        margin-right: 75px; 
         width: 60px;
         height: 60px; 
     }
@@ -131,7 +131,7 @@ html, body {
 
 @media(min-width:605px){
     .logo_superior_derecho{
-        margin-right: 75px; 
+        margin-right: 100px; 
         width: 60px;
         height: 60px; 
     }
@@ -139,7 +139,7 @@ html, body {
 
 @media(min-width:640px){
     .logo_superior_derecho{
-        margin-right: 115px; 
+        margin-right: 125px; 
         width: 60px;
         height: 60px; 
     }
@@ -147,7 +147,7 @@ html, body {
 
 @media(min-width:680px){
     .logo_superior_derecho{
-        margin-right: 140px; 
+        margin-right: 150px; 
         width: 60px;
         height: 60px; 
     }
