@@ -42,11 +42,7 @@ html, body {
     content: "Bienvenidos al Sistema de Solicitud de Permisos de UNPSJB";
 }
 
-.logo_superior_derecho{
-    width: 60px;
-    height: 60px;
-    margin-right: 65%; 
-}
+
 .direccion_footer::after{
     content: "Direccion: Av. Fontana 127-129, Trelew, Chubut.";
 }
@@ -62,4 +58,35 @@ html, body {
 }
 
 
+/*Estilos del resposive*/
+@media(min-width:480px){
+    .logo_superior_derecho{
+        width: 60px;
+        height: 60px;
+        margin-right: 45%; 
+    }
+}
+
+@media(min-width:768px) {  
+    .logo_superior_derecho{
+        width: 60px;
+        height: 60px;
+        margin-right: 55%; 
+    }
+}
+@media(min-width:1024px) {  
+    .logo_superior_derecho{
+        width: 60px;
+        height: 60px;
+        margin-right: 65%; 
+    }
+  }
+
+@media(min-width:1280px) {
+    .logo_superior_derecho{
+        width: 60px;
+        height: 60px;
+        margin-right: 70%; 
+    }
+}
 
