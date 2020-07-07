@@ -20,7 +20,7 @@ html, body {
 }
 
 .subtituloForm{
-    background-color: rgb(34, 79, 175, 0.795) ;
+    background-color: rgba(163, 181, 219, 0.795) ;
     text-align: center;
     margin-top: 5px;
 }
@@ -35,11 +35,11 @@ html, body {
 }
 
 .nombre_organizacion::after{
-    content: "Sistema de Solicitud de Permisos de UNPSJB";
+    content: "Sistema de Solicitud de Permisos del Gobierno de Chubut";
 }
 
 .nombre_organizacion_body::after{
-    content: "Bienvenidos al Sistema de Solicitud de Permisos de UNPSJB";
+    content: "Bienvenidos al Sistema de Solicitud del Gobierno de Chubut";
 }
 .logo_superior_derecho{
     width: 60px;
@@ -47,10 +47,10 @@ html, body {
 }
 
 .direccion_footer::after{
-    content: "Direccion: Colombia 1205, Trelew, Chubut.";
+    content: "Direccion: Gdor. Luis Jorge Fontana 50, Rawson, Chubut.";
 }
 .telefono_footer::after{
-    content: "Telefono: (02804) 226-4663";
+    content: "Telefono: 0280 448-0200";
 }
 .footer{
     background-color: rgba(34, 79, 175, 0.795) ;
