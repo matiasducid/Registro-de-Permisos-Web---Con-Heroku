@@ -56,9 +56,57 @@ html, body {
     background-color: rgb(200, 200, 200) ;
     height: auto;
     text-align: center;
-    margin-bottom: 0px;
+    padding: 20px 40px 20px 40px;
+    margin: 0px;
     margin-top: 10px;
 }
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 34px;
+}
+
+.links > a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+
+.btn{
+    background-color: rgb(50, 53, 53);
+}
+
 
 
 /*Estilos del resposive*/
@@ -74,42 +122,42 @@ html, body {
     }
 }
 
-@media(min-width:575px){
-    .logo_superior_derecho{
-        margin-right: 26.5%; 
-    }
-}
 
 @media(min-width:605px){
     .logo_superior_derecho{
-        margin-right: 40%; 
+        margin-right: 30%; 
     }
 }
 
 @media(min-width:680px){
     .logo_superior_derecho{
-        margin-right: 45%; 
+        margin-right: 35%; 
     }
 }
 
 @media(min-width:715px){
     .logo_superior_derecho{
-        margin-right: 50%; 
+        margin-right: 40%; 
     }
 }
 
 @media(min-width:750px) {  
     .logo_superior_derecho{
-        margin-right: 55%; 
+        margin-right: 43%; 
     }
 }
 
 @media(min-width:850px) {  
     .logo_superior_derecho{
-        margin-right: 55%; 
+        margin-right: 50%; 
     }
 }
 
+@media(min-width:915px) {  
+    .logo_superior_derecho{
+        margin-right: 54%; 
+    }
+}
 @media(min-width:1024px) {  
     .logo_superior_derecho{
         margin-right: 60%; 

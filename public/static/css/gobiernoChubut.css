@@ -1,0 +1,228 @@
+.formPermiso{
+    margin-top: 5px;
+    background-color:rgba(243, 247, 250, 0.87);
+    color: black;
+}
+
+html, body {
+    background-color: #fff;
+    color: #065c88;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    height: 100vh;
+    margin: 0;
+}
+
+.tituloForm{
+    background-color: rgb(106, 145, 230, 0.795);
+    text-align: center;
+    margin-top: 5px;
+}
+
+.subtituloForm{
+    background-color: rgba(163, 181, 219, 0.795) ;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.confirmacion{
+    text-align: center;
+    font-size: medium;
+}
+
+.paraLabel{
+    text-align: right; 
+}
+
+.nombre_organizacion::after{
+    content: "Sistema de Solicitud de Permisos del Gobierno de Chubut";
+}
+
+.nombre_organizacion_body::after{
+    content: "Bienvenidos al Sistema de Solicitud de Permisos del Gobierno de Chubut";
+}
+.logo_superior_derecho{
+    width: 60px;
+    height: 60px;
+}
+
+.direccion_footer::after{
+    content: "Direccion: Gdor. Luis Jorge Fontana 50, Rawson, Chubut.";
+}
+.telefono_footer::after{
+    content: "Telefono: 0280 448-0200";
+}
+.footer{
+    background-color: rgba(106, 145, 230, 0.795) ;
+    height: auto;
+    text-align: center;
+    padding: 20px 40px 20px 40px;
+    margin: 0px;
+    margin-top: 10px;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 34px;
+}
+
+.links > a {
+    color: #038fd4;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+
+.btn{
+    background-color: cadetblue;
+}
+
+.imagenCompania {
+    background-image: url('images/escudo-chubut.png');
+    background-size: contain;
+}
+
+  /*Estilos del resposive*/
+@media(min-width:480px){
+    .logo_superior_derecho{
+        margin-right: 0%;
+        width: 45px;
+        height: 45px;
+
+    }
+}
+
+@media(min-width:545px){
+    .logo_superior_derecho{
+        margin-right: 3%;
+        width: 60px;
+        height: 60px; 
+    }
+}
+
+@media(min-width:575px){
+    .logo_superior_derecho{
+        margin-right: 10%; 
+        width: 60px;
+        height: 60px; 
+    }
+}
+
+@media(min-width:587px){
+    .logo_superior_derecho{
+        margin-right: 12%; 
+        width: 60px;
+        height: 60px; 
+    }
+}
+
+@media(min-width:600px){
+    .logo_superior_derecho{
+        margin-right: 14%; 
+        width: 60px;
+        height: 60px; 
+    }
+}
+
+@media(min-width:640px){
+    .logo_superior_derecho{
+        margin-right: 18%; 
+        width: 60px;
+        height: 60px; 
+    }
+}
+
+@media(min-width:680px){
+    .logo_superior_derecho{
+        margin-right: 25%; 
+        width: 60px;
+        height: 60px; 
+    }
+}
+
+@media(min-width:715px){
+    .logo_superior_derecho{
+        margin-right: 28%; 
+        width: 60px;
+        height: 60px; 
+    }
+}
+
+@media(min-width:750px) {  
+    .logo_superior_derecho{
+        margin-right: 32%; 
+        width: 60px;
+        height: 60px; 
+    }
+}
+
+@media(min-width:850px) {  
+    .logo_superior_derecho{
+        margin-right: 35%; 
+        width: 60px;
+        height: 60px; 
+    }
+}
+
+@media(min-width:1024px) {  
+    .logo_superior_derecho{
+        margin-right: 45%; 
+        width: 60px;
+        height: 60px; 
+    }
+  }
+
+@media(min-width:1090px) {
+    .logo_superior_derecho{
+        margin-right: 50%; 
+        width: 60px;
+        height: 60px; 
+    }
+}
+
+@media(min-width:1180px) {
+    .logo_superior_derecho{
+        margin-right: 55%; 
+        width: 60px;
+        height: 60px; 
+    }
+}
+
+@media(min-width:1280px) {
+    .logo_superior_derecho{
+        margin-right: 60%; 
+        width: 60px;
+        height: 60px; 
+    }
+}
+
