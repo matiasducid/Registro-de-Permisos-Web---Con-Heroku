@@ -32,6 +32,6 @@ class PermisoRechazadoEmail extends Mailable
      */
     public function build()
     {
-        return $this->view('emails.permisoRechazadoEmail');
+        return $this->view('emails.permisoRechazadoEmail')->subject('Solicitud de Permiso Rechazada');
     }
 }

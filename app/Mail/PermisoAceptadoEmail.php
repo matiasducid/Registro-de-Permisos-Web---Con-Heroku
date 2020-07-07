@@ -31,6 +31,6 @@ class PermisoAceptadoEmail extends Mailable
      */
     public function build()
     {
-        return $this->view('emails.permisoAceptadoEmail');
+        return $this->view('emails.permisoAceptadoEmail')->subject('Solicitud de Permiso Aceptada');
     }
 }
