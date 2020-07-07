@@ -106,13 +106,13 @@ html, body {
 /*Estilos del resposive*/
 @media(min-width:480px){
     .logo_superior_derecho{
-        margin-right: 5%; 
+        margin-right: 0px; 
     }
 }
 
 @media(min-width:545px){
     .logo_superior_derecho{
-        margin-right: 25%; 
+        margin-right: 100px; 
     }
 }
 
