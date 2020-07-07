@@ -131,7 +131,7 @@ html, body {
 
 @media(min-width:605px){
     .logo_superior_derecho{
-        margin-right: 80px; 
+        margin-right: 75px; 
         width: 60px;
         height: 60px; 
     }
@@ -139,7 +139,7 @@ html, body {
 
 @media(min-width:640px){
     .logo_superior_derecho{
-        margin-right: 125px; 
+        margin-right: 95px; 
         width: 60px;
         height: 60px; 
     }
@@ -147,7 +147,7 @@ html, body {
 
 @media(min-width:680px){
     .logo_superior_derecho{
-        margin-right: 150px; 
+        margin-right: 120px; 
         width: 60px;
         height: 60px; 
     }
@@ -155,7 +155,7 @@ html, body {
 
 @media(min-width:715px){
     .logo_superior_derecho{
-        margin-right: 170px; 
+        margin-right: 150px; 
         width: 60px;
         height: 60px; 
     }
@@ -163,7 +163,7 @@ html, body {
 
 @media(min-width:750px) {  
     .logo_superior_derecho{
-        margin-right: 210px; 
+        margin-right: 180px; 
         width: 60px;
         height: 60px; 
     }
