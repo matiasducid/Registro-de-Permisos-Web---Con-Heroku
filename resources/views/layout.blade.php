@@ -7,7 +7,8 @@
         <title>@yield('title')</title>
 
         <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet" type="text/css"/>
-        <link href="{{ asset('static/css/app.css') }}" rel="stylesheet" type="text/css"/>
+        <link href="{{ asset('static/css/jardinCamionetas.css') }}" rel="stylesheet" type="text/css"/>
+        <!--<link href="{{ asset('static/css/app.css') }}" rel="stylesheet" type="text/css"/>-->
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -70,8 +71,9 @@
 
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
 
-        <img src="{{ asset('images/albatroz-unpsjb.png')}}" ALIGN="right" class="logo_superior_derecho pull-right align-right">
-           
+        <img src="{{ asset('images/camioneta-imagen.png')}}" ALIGN="right" class="logo_superior_derecho pull-right align-right">
+        <!--<img src="{{ asset('images/albatroz-unpsjb.png')}}" ALIGN="right" class="logo_superior_derecho pull-right align-right">-->
+
             <ul class="navbar-nav">
                 <li class="nav-item active">
                     <a class="nav-link align-right" href="{{url('/')}}"><p class="nombre_organizacion"></p></a>

@@ -1,0 +1,124 @@
+.formPermiso{
+    margin-top: 5px;
+    background-color:rgba(243, 247, 250, 0.87);
+    color: black;
+}
+
+html, body {
+    background-color: #fff;
+    color: #636b6f;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    height: 100vh;
+    margin: 0;
+}
+
+.tituloForm{
+    background-color: rgb(204, 200, 200);
+    text-align: center;
+    margin-top: 5px;
+}
+
+.subtituloForm{
+    background-color: rgb(200, 200, 200) ;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.confirmacion{
+    text-align: center;
+    font-size: medium;
+}
+
+.paraLabel{
+    text-align: right; 
+}
+
+.nombre_organizacion::after{
+    content: "Sistema de Solicitud de Permisos de UNPSJB";
+}
+
+.nombre_organizacion_body::after{
+    content: "Bienvenidos al Sistema de Solicitud de Permisos de UNPSJB";
+}
+.logo_superior_derecho{
+    width: 60px;
+    height: 60px;
+}
+
+.direccion_footer::after{
+    content: "Direccion: Av. Fontana 127-129, Trelew, Chubut.";
+}
+.telefono_footer::after{
+    content: "Telefono: (0297) 455-7856";
+}
+.footer{
+    background-color: rgb(200, 200, 200) ;
+    height: auto;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+
+/*Estilos del resposive*/
+@media(min-width:480px){
+    .logo_superior_derecho{
+        margin-right: 15%; 
+    }
+}
+
+@media(min-width:545px){
+    .logo_superior_derecho{
+        margin-right: 25%; 
+    }
+}
+
+@media(min-width:575px){
+    .logo_superior_derecho{
+        margin-right: 26.5%; 
+    }
+}
+
+@media(min-width:605px){
+    .logo_superior_derecho{
+        margin-right: 40%; 
+    }
+}
+
+@media(min-width:680px){
+    .logo_superior_derecho{
+        margin-right: 45%; 
+    }
+}
+
+@media(min-width:715px){
+    .logo_superior_derecho{
+        margin-right: 50%; 
+    }
+}
+
+@media(min-width:750px) {  
+    .logo_superior_derecho{
+        margin-right: 55%; 
+    }
+}
+
+@media(min-width:850px) {  
+    .logo_superior_derecho{
+        margin-right: 55%; 
+    }
+}
+
+@media(min-width:1024px) {  
+    .logo_superior_derecho{
+        margin-right: 60%; 
+    }
+  }
+
+@media(min-width:1280px) {
+    .logo_superior_derecho{
+        margin-right: 65%; 
+    }
+}
+
