@@ -105,13 +105,13 @@ html, body {
 }
 @media(min-width:1024px) {  
     .logo_superior_derecho{
-        margin-right: 65%; 
+        margin-right: 60%; 
     }
   }
 
 @media(min-width:1280px) {
     .logo_superior_derecho{
-        margin-right: 70%; 
+        margin-right: 65%; 
     }
 }
 
