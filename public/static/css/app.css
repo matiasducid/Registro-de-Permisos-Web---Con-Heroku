@@ -59,6 +59,10 @@ html, body {
     margin-bottom: 0px;
     margin-top: 10px;
 }
+.navcolor{
+    background-color: rgba(47, 50, 56, 0.795) ;
+}
+
 
 
 /*Estilos del resposive*/
