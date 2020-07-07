@@ -52,7 +52,7 @@
                         <input type="text" class="form-control" name="espacio" value="{{$permiso[0]->espacio}}" disabled>
                     </label>
 
-                    <?php echo QrCode::size(300)->generate($permiso[0]->id); ?>
+                    <img src="data:image/png;base64, <?php echo base64_encode($qr) ?> ">
 
                     <br>
                     <div class="text-center">
