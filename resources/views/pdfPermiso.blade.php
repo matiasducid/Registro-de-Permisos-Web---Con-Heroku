@@ -11,20 +11,14 @@
 </head>
 <body>
 
-    <div class="container col-12">
-
-        <div class="col-9 tituloForm">
-            <h1 >Sistema de Solicitud de Permisos</h1>
-        
-        </div>
-
-        <div class="col-2">
+    <div class="container col-11 tituloForm">
+        <h3>Sistema de Solicitud de Permisos</h3>
         <!--<img src="{{ asset('images/escudo-chubut.png')}}" ALIGN="right" class="logo_superior_derecho pull-right align-right">-->
         <img src="{{ asset('images/albatroz-unpsjb.png')}}" ALIGN="right" class="logo_superior_derecho pull-right align-right">
-        </div>
     </div>
-    <div class="container col-8 tituloForm">
-        <h3>Permiso</h3>
+
+    <div class="container col-8 subtituloForm">
+        <h4>Permiso</h4>
     </div>
 
     <div class="container col-sm-8 border formPermiso">
