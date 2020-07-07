@@ -11,7 +11,7 @@ class PermisoSolicitado extends Mailable
 {
     use Queueable, SerializesModels;
 
-    public $subjet = 'Solicitar Permiso';
+    public $subjet = 'Solicitud Permiso';
     public $msj;
     public $id_permiso;
 
@@ -34,6 +34,6 @@ class PermisoSolicitado extends Mailable
      */
     public function build()
     {
-        return $this->view('emails.permisoSolicitado');
+        return $this->view('emails.permisoSolicitado')->subject($subjet);
     }
 }
