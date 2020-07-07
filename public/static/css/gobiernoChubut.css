@@ -187,7 +187,7 @@ html, body {
 
 @media(min-width:1024px) {  
     .logo_superior_derecho{
-        margin-right: 50%; 
+        margin-right: 49%; 
         width: 60px;
         height: 60px; 
     }
@@ -195,7 +195,7 @@ html, body {
 
 @media(min-width:1090px) {
     .logo_superior_derecho{
-        margin-right: 53%; 
+        margin-right: 52%; 
         width: 60px;
         height: 60px; 
     }
@@ -203,7 +203,7 @@ html, body {
 
 @media(min-width:1150px) {
     .logo_superior_derecho{
-        margin-right: 56%; 
+        margin-right: 55%; 
         width: 60px;
         height: 60px; 
     }
@@ -211,7 +211,7 @@ html, body {
 
 @media(min-width:1215px) {
     .logo_superior_derecho{
-        margin-right: 59%; 
+        margin-right: 58%; 
         width: 60px;
         height: 60px; 
     }
