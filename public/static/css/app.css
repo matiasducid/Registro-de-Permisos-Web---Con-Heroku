@@ -5,8 +5,11 @@
 }
 
 .ocupar{
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    text-justify: auto;
+    font-size: large;
 }
 
 html, body {
