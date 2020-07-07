@@ -110,6 +110,7 @@ html, body {
 .navbar-dark{
     background-color:rgba(106, 145, 230, 0.795);
     color:rgba(106, 145, 230, 0.795);
+    flood-color: cornflowerblue;
 }
 /*Estilos del resposive*/
 @media(min-width:480px){
