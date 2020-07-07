@@ -103,6 +103,9 @@ html, body {
     margin-bottom: 30px;
 }
 
+.btn{
+    background-color: cadetblue;
+}
 /*Estilos del resposive*/
 @media(min-width:480px){
     .logo_superior_derecho{
