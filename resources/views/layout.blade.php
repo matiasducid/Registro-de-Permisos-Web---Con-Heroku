@@ -69,21 +69,15 @@
     <body>
 
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-6">
-                    <ul class="navbar-nav">
-                        <li class="nav-item active">
-                            <a class="nav-link align-right" href="{{url('/')}}"><p class="nombre_organizacion"></p></a>
-                        </li>
-                    </ul>
-                    </div>
-               
-                    <div class="col-xs-6 pull-right">
-                        <img src="{{ asset('images/albatroz-unpsjb.png')}}" class="logo_superior_derecho pull-right">
-                    </div>
-                </div>
-            </div>
+           
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link align-right" href="{{url('/')}}"><p class="nombre_organizacion"></p></a>
+                </li>
+            </ul>
+
+            <img src="{{ asset('images/albatroz-unpsjb.png')}}" ALIGN="right" class="logo_superior_derecho pull-right">
+
         </nav>
 
         @yield('content')
