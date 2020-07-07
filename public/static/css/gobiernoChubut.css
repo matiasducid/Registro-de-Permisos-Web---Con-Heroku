@@ -107,12 +107,12 @@ html, body {
     background-color: cadetblue;
 }
 
-.navbar-dark{
-    background-color:rgba(106, 145, 230, 0.795);
-    color:rgba(106, 145, 230, 0.795);
-    flood-color: cornflowerblue;
+.imagenCompania {
+    background-image: url('../images/escudo-chubut.png');
+    background-size: contain;
 }
-/*Estilos del resposive*/
+
+  /*Estilos del resposive*/
 @media(min-width:480px){
     .logo_superior_derecho{
         margin-right: 0%;

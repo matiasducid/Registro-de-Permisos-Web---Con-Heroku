@@ -16,7 +16,7 @@
     <body>
 
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-
+        <div class="imagenCompania"></div>
         <img src="{{ asset('images/escudo-chubut.png')}}" ALIGN="right" class="logo_superior_derecho pull-right align-right">
         <!--<img src="{{ asset('images/albatroz-unpsjb.png')}}" ALIGN="right" class="logo_superior_derecho pull-right align-right">-->
 
