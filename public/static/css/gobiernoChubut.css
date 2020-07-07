@@ -106,6 +106,10 @@ html, body {
 .btn{
     background-color: cadetblue;
 }
+
+.navvar-dark{
+    background-color: rgba(106, 145, 230, 0.795) ;
+}
 /*Estilos del resposive*/
 @media(min-width:480px){
     .logo_superior_derecho{
