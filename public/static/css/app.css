@@ -122,11 +122,6 @@ html, body {
     }
 }
 
-@media(min-width:575px){
-    .logo_superior_derecho{
-        margin-right: 26.5%; 
-    }
-}
 
 @media(min-width:605px){
     .logo_superior_derecho{
