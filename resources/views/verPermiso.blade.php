@@ -14,7 +14,7 @@
                 <div class="form-group text-center">
 
                     <label class="col-sm-4"for="dni">DNI:
-                        <input type="text" class="form-control" name="dni" value="{{$permiso[0]->dni}}" disabled>
+                        <input type="text" class="form-control" name="dni" value="{{$permiso->permiso[0]->dni}}" disabled>
                     </label>
                     
 
